@@ -9,7 +9,6 @@ permissions:
 
 jobs:
   asses-issue:
-    name: Welcome and Label
     runs-on: ubuntu-latest
     steps:
       - name: Thank you comment
