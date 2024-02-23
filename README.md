@@ -11,4 +11,4 @@ This is my GitHub page deployed site.
 - LinkedIn: [linkedin.com/in/john0isaac](https://linkedin.com/in/john0isaac)
 
 
-[Actions](./.github/test.yml)
+[Actions](./.github/workflows/welcome-issue.yml)
