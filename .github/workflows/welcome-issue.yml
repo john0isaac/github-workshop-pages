@@ -1,18 +1,12 @@
-name: Welcome to my github repo
-on: 
+on:
   issues:
-    types: [opended]
-
-permissions:
-  issues: write
-  contents: read
+    types: [opened]
 
 jobs:
-  asses-issue:
+  comment:
     runs-on: ubuntu-latest
     steps:
-      - name: Thank you comment
-        uses: actions/github-script@v7
+      - uses: actions/github-script@v7
         with:
           script: |
             github.rest.issues.createComment({
